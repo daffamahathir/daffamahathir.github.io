@@ -1,0 +1,156 @@
+* { padding: 0; margin: 0; }
+
+body { background-color: #000; color: #ffffff}
+
+a { color: #ffffff; }
+a:hover { color: #ffffff; }
+a:visited { color: #ffffff; }
+a:active { color: #ffffff; }
+a:focus { color: #ffffff; }
+
+.row-space {  margin-top: 80px; }
+.cursor { cursor: pointer }
+
+/*Fonts*/
+@font-face {
+    font-family: Proxima_Bold;
+    src: url(../fonts/Proxima_Nova_Alt_Bold.otf); }
+
+@font-face {
+    font-family: Proxima_Light;
+    src: url(../fonts/Proxima_Nova_Alt_Light.otf); }
+
+@font-face {
+    font-family: Proxima_Black;
+    src: url(../fonts/Proxima_Nova_Alt_Black.otf); }
+
+@font-face {
+    font-family: Proxima_Regular;
+    src: url(../fonts/Proxima_Nova_Alt_Regular.otf); }
+
+/*Header Styles*/
+#header {
+    height: 80px;
+    text-transform: uppercase; }
+
+#header h1 {
+    margin: 0;
+    line-height: 80px;
+    font-size: 25px; }
+
+#header span {
+    font-family: Proxima_Light;
+    font-size: 25px; }
+
+/*DropDown*/
+#dropDown {
+    background-color: #111222;
+    margin: 0 1px 0 1px;
+    display: none; }
+
+.list {
+    font-family: Proxima_Bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 22px 0 10px 0; }
+
+/*Welcome Styles*/
+#welcome {
+    font-family: Proxima_Black;
+    font-size: 75px;
+    text-align: center;
+    margin: 100px 0 160px 0; }
+
+#welcome p {
+    font-family: Proxima_Light;
+    font-size: 45px;
+    font-style: italic;
+    position: relative;
+    top: 20px; }
+
+#welcome span {
+    text-transform: uppercase;
+    position: relative;
+    bottom: 15px; }
+
+/*portfolio Styles*/
+.portfolio{
+    margin-top: 60px; }
+
+.portfolio h1 {
+    font-family: Proxima_Light;
+    font-size: 25px;
+    font-style: italic; }
+
+.portfolio h2 {
+    font-family: Proxima_Bold;
+    font-size: 45px; }
+
+.portfolio h3 {
+    font-family: Proxima_Bold;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+
+.portfolio h3:hover {
+    text-decoration: underline; }
+
+/*About Styles*/
+.about h3 {
+    font-family: Proxima_Bold;
+    font-size: 25px;
+    margin-top: 0; }
+
+.text {
+    font-family: Proxima_Regular;
+    font-size: 20px; }
+
+.copy {
+    margin-top: 20px; }
+
+.address {
+    font-family: Proxima_Regular;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/*Contact BTN*/
+.mail{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 6px 20px 6px 20px;
+    margin-bottom: 15px; }
+
+.mail:hover {
+    background-color: #EEEEEE;
+    color: #000000;
+    text-decoration: none;
+    transition: color, background-color 0.4s linear;
+    -webkit-transition: 0.4s; }
+
+.mail:active, .mail:focus, .mail:visited{
+    color: #000000; background-color: #EEEEEE; text-decoration: none; }
+
+/*Footer Styles*/
+.footer {
+    padding: 25px 0 15px 0;
+    margin: 35px 15px 20px 15px; }
+
+/*Modal Styles*/
+.row01-modal, .row02-modal, .row03-modal, .row04-modal, .row05-modal, .row06-modal {
+    outline: none; }
+
+@media screen and (max-width: 768px) {
+    .row01-modal .modal-dialog, .row02-modal .modal-dialog, .row03-modal .modal-dialog,
+    .row04-modal .modal-dialog, .row05-modal .modal-dialog, .row06-modal .modal-dialog  {
+        top: 15%; }
+}
+
+@media screen and (min-width: 768px) {
+    .row01-modal .modal-dialog, .row02-modal .modal-dialog, .row03-modal .modal-dialog,
+    .row04-modal .modal-dialog, .row05-modal .modal-dialog, .row06-modal .modal-dialog  {
+        width: 70%; }
+}
